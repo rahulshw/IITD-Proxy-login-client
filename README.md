@@ -9,7 +9,7 @@
 
 2. Add proxy for command line applications by running the commands below
    ```shell
-   proxynum = 21 # (for IRD staffs, for others check the section:Proxy number)
+   proxynum=21 # (for IRD staffs, for others check the section:Proxy number)
    export http_proxy=http://proxy${proxynum}.iitd.ernet.in:3128
    export https_proxy=https://proxy${proxynum}.iitd.ernet.in:3128
    export HTTP_PROXY=$http_proxy
